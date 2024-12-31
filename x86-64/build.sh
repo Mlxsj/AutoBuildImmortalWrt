@@ -22,6 +22,8 @@ PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
+PACKAGES="$PACKAGES luci/luci-app-passwall_24.12.1_all.ipk
+PACKAGES="$PACKAGES luci/luci-i18n-passwall-zh-cn_git-24.338.23635-7327379_all.ipk
 
 # 构建镜像
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Building image with the following packages:"
